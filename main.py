@@ -7,4 +7,5 @@ display(now.strftime("%m/%d/%Y, %H:%M:%S"))
 
 english = "Hello there. How are you?"
 pirate = translate(english)
-display(english + " -- 🦜 --> " +pirate)
+display("\nAnd a bit of Pirate translation:")
+display(english + " -- 🦜 --> " + pirate)
